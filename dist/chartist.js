@@ -51,7 +51,7 @@ var Chartist = {
    */
   Chartist.alphaNumerate = function (n) {
     // Limit to a-z
-    return String.fromCharCode(97 + n % 26);
+    return n; //String.fromCharCode(97 + n % 26);
   };
 
   /**
